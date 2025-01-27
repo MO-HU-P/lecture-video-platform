@@ -190,16 +190,16 @@ docker compose down
 
 | #  | フィールド                          | ソート順         |
 |----|-----------------------------------|----------------|
-| 1  | course, createdAt, name            | Asc, Desc, Asc  |
-| 2  | createdAt, semester, name           | Desc, Asc, Asc  |
-| 3  | createdAt, course, semester, name   | Desc, Asc, Asc, Asc |
-| 4  | createdAt, course, grade, name       | Desc, Asc, Asc, Asc |
-| 5  | createdAt, grade, semester, name     | Desc, Asc, Asc, Asc |
-| 6  | createdAt, course, grade, semester, name | Desc, Asc, Asc, Asc, Asc |
-| 7  | createdAt, course, name              | Desc, Asc, Asc  |
-| 8  | createdAt, grade, name                | Desc, Asc, Desc |
-| 9  | grade, createdAt, name                | Asc, Desc, Desc |
-| 10 | grade, semester, createdAt, name      | Asc, Asc, Desc, Desc |
+| 1  | course, createdAt,  __name__            | Asc, Desc, Asc  |
+| 2  | createdAt, semester,  __name__           | Desc, Asc, Asc  |
+| 3  | createdAt, course, semester,  __name__   | Desc, Asc, Asc, Asc |
+| 4  | createdAt, course, grade,  __name__       | Desc, Asc, Asc, Asc |
+| 5  | createdAt, grade, semester,  __name__     | Desc, Asc, Asc, Asc |
+| 6  | createdAt, course, grade, semester,  __name__ | Desc, Asc, Asc, Asc, Asc |
+| 7  | createdAt, course,  __name__              | Desc, Asc, Asc  |
+| 8  | createdAt, grade,  __name__                | Desc, Asc, Desc |
+| 9  | grade, createdAt,  __name__                | Asc, Desc, Desc |
+| 10 | grade, semester, createdAt,  __name__      | Asc, Asc, Desc, Desc |
 
 ---
 
@@ -208,10 +208,10 @@ docker compose down
 
 | #  | フィールド                                | ソート順         |
 |----|-----------------------------------------|----------------|
-| 1  | status, lecture_name, created_at, name   | Asc, Asc, Desc, Desc |
-| 2  | status, grade, created_at, name          | Asc, Asc, Desc, Desc |
-| 3  | status, created_at, name                  | Asc, Desc, Desc |
-| 4  | status, semester, created_at, name        | Asc, Asc, Desc, Desc |
+| 1  | status, lecture_name, created_at,  __name__   | Asc, Asc, Desc, Desc |
+| 2  | status, grade, created_at,  __name__          | Asc, Asc, Desc, Desc |
+| 3  | status, created_at,  __name__                  | Asc, Desc, Desc |
+| 4  | status, semester, created_at,  __name__        | Asc, Asc, Desc, Desc |
 
 ---
 
