@@ -132,13 +132,13 @@
 1. リポジトリをクローンします。
 
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/MO-HU-P/lecture-video-platform.git
    ```
 
 2. クローンしたディレクトリに移動します。
 
    ```sh
-   cd your-repo
+   cd lecture-video-platform
    ```
 
 3. `public/videos` ディレクトリを作成します（動画ファイルの保存に必須）。
