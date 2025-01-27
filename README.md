@@ -161,19 +161,19 @@
 1. プロジェクトのルートディレクトリで以下のコマンドを実行:
  
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 2. バックグラウンドで起動:
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 3. ブラウザで `http://localhost:8080` にアクセスしてアプリケーションを確認
 
 4. サービスの停止:
 ```bash
-docker-compose down
+docker compose down
 ```
 
 **構成内容：**
